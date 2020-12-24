@@ -39,16 +39,16 @@ public class BasePage
         switch(TestConfig.env)
         {
             case "dev":
-                baseUrl = "https://laravel.com";
+                baseUrl = "https://staging.dermatica.co.uk";
                 break;
             case "stage":
-                baseUrl = "https://laravel.com";
+                baseUrl = "https://staging.dermatica.co.uk";
                 break;
             case "prod":
-                baseUrl = "https://laravel.com";
+                baseUrl = "https://staging.dermatica.co.uk";
                 break;
             default:
-                baseUrl = "https://laravel.com";
+                baseUrl = "https://staging.dermatica.co.uk";
         }
     }
 

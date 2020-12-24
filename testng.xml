@@ -10,6 +10,7 @@
     <test name="Test">
         <classes>
             <class name="BaseTestInit" />
+            comparePageScreenshots("index_page");
             <class name="TestExample" />  <!-- Add your tests between BaseTestInit and BaseTestFinish.-->
             <class name="BaseTestFinish" />
         </classes>

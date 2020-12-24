@@ -17,7 +17,7 @@ public class TestExample extends BaseTest
     public void indexPage()
     {
         // you can create app object in BaseTest class to avoid code duplication
-        App app = new App(driverWrapper, "/");
+        App app = new App(driverWrapper, "https://staging.dermatica.co.uk");
 
         app.indexPage.open();
         app.preparePageForScreenshot();
@@ -27,7 +27,7 @@ public class TestExample extends BaseTest
     @Test
     public void indexPageElement()
     {
-        App app = new App(driverWrapper, "/");
+        App app = new App(driverWrapper, "https://staging.dermatica.co.uk");
 
         app.indexPage.open();
         app.preparePageForScreenshot();
